@@ -1,0 +1,5 @@
+@startuml
+[Manage服务]- MySql :每秒轮询一次
+[Gd服务]..>[Manage服务]:Http长连接
+[Manage服务]..>[Gd服务]:配置更改，立刻返回，60秒内配置没有更改，返回304
+@enduml
