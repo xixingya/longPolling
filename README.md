@@ -1,0 +1,3 @@
+# longPolling
+longPolling achieve
+使用DeferredResult进行http长连接的小demo
